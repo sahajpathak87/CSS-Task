@@ -1,0 +1,26 @@
+/* Element selector: applies to EVERY div, so these are the shared/common properties */
+div {
+  border: 2px solid #1d2330;
+  padding: 15px;
+  margin: 15px;
+  height: 120px;
+  width: 320px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Class selector: used on the SECOND div (reusable - could apply to many elements) */
+.highlight-box {
+  background-color: #eaf0f5;
+  color: #1f5f8b;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ID selector: used on the THIRD div (must be unique - only one element can use this id) */
+#special-box {
+  background-color: #1f5f8b;
+  color: white;
+  border-radius: 10px;
+  text-align: right;
+}

@@ -1,0 +1,42 @@
+/* Set a font family for the whole page */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #1d2330;
+}
+
+/* Change heading color and size, and center it */
+h1 {
+  color: #1f5f8b;
+  font-size: 36px;
+  text-align: center;
+}
+
+.profile-pic {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 3px solid #1f5f8b;
+}
+
+/* Change paragraph line-height for readability */
+.profile-text {
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+/* Class selector used to style the skills list */
+.skills-list {
+  list-style-type: square;
+  background-color: #f0f2f5;
+  padding: 15px 15px 15px 35px;
+  border-radius: 6px;
+}
+
+.skills-list li {
+  margin-bottom: 6px;
+  color: #1f5f8b;
+  font-weight: bold;
+}
